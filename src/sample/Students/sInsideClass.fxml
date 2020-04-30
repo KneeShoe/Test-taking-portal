@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="644.0" prefWidth="954.0" style="-fx-background-color: #f7d8cd;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Students.sInsideClass">
+   <children>
+      <JFXButton fx:id="back" buttonType="RAISED" layoutX="31.0" layoutY="572.0" onAction="#back" prefHeight="47.0" prefWidth="102.0" style="-fx-background-color: #756421;" text="&lt;Back" />
+      <JFXListView fx:id="quizList" layoutX="31.0" layoutY="32.0" prefHeight="513.0" prefWidth="893.0" style="-fx-background-color: #f7d8cd;" />
+   </children>
+</AnchorPane>
